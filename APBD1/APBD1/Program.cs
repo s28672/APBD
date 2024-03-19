@@ -2,12 +2,12 @@
 
 
 static double CalculateAverage(int[] arr) {
-    int plus = 0;
-    foreach(var a in arr)
+    int sum = 0;
+    foreach(var b in arr)
     {
-        plus += a;
+        sum += b;
     }
-    return plus / arr.Length;
+    return sum / arr.Length;
 }
 
 static int FindMax(int[] arr)
