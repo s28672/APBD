@@ -9,3 +9,15 @@ static double CalculateAverage(int[] arr) {
     }
     return sum / arr.Length;
 }
+
+static int FindMax(int[] arr)
+{
+    int max = 0;
+    foreach (var i in arr)
+    {
+        if (i > max) { 
+            max = i;
+        }
+    }
+    return max;
+}
