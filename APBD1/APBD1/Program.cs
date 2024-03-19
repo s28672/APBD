@@ -3,9 +3,9 @@
 
 static double CalculateAverage(int[] arr) {
     int sum = 0;
-    foreach(var a in arr)
+    foreach(var b in arr)
     {
-        sum += a;
+        sum += b;
     }
     return sum / arr.Length;
 }
